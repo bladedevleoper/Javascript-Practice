@@ -34,6 +34,8 @@ var outputMessage = "<h1>Math with " + stringToFloat1 + " and " + stringToFloat2
 //    The string should look something like this after concatenation:
 //    "3 + 4 = 7"
 
+//once a variable has been declared, you don't have to write var in front of it.
+
 outputMessage += stringToFloat1 + " * " + stringToFloat2 + " = " + (stringToFloat1 * stringToFloat2);
 outputMessage += "<br>";
 outputMessage += stringToFloat1 + " / " + stringToFloat2 + " = " + (stringToFloat1 / stringToFloat2);
