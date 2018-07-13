@@ -34,10 +34,13 @@ var outputMessage = "<h1>Math with " + stringToFloat1 + " and " + stringToFloat2
 //    The string should look something like this after concatenation:
 //    "3 + 4 = 7"
 
-var add = stringToFloat1 + stringToFloat2;
-var sub = stringToFloat1 - stringToFloat2;
-var mul = stringToFloat1 * stringToFloat2;
-var div = stringToFloat1 / stringToFloat2;
+outputMessage += stringToFloat1 + " * " + stringToFloat2 + " = " + (stringToFloat1 * stringToFloat2);
+outputMessage += "<br>";
+outputMessage += stringToFloat1 + " / " + stringToFloat2 + " = " + (stringToFloat1 / stringToFloat2);
+outputMessage += "<br>";
+outputMessage += stringToFloat1 + " - " + stringToFloat2 + " = " + (stringToFloat1 - stringToFloat2);
+outputMessage += "<br>";
+outputMessage += stringToFloat1 + " + " + stringToFloat2 + " = " + (stringToFloat1 + stringToFloat2);
 
 
 // 8. Add a linebreak tag -- <br> -- to the message variable
@@ -49,25 +52,12 @@ var breakPoint = "<br>";
 //    "3 / 4 = 0.75"
 //    "3 - 4 = -1"
 
-var messageAdd = number1 + " + " + number2 + " = " + add;
-var messageSub = number1 + " - " + number2 + " = " + sub ;
-var messageMul = number1 + " * " + number2 + " = " + mul;
-var messageDiv = number1 + " / " + number2 + " = " + div;
-
 // 10. Use the document.write() method to print the message variable 
 //     to the web page. Open the finished.png file in this workspace
 //     to see what the completed output should look like
 
 
 document.write(outputMessage);
-document.write(breakPoint);
-document.write(messageAdd);
-document.write(breakPoint);
-document.write(messageSub);
-document.write(breakPoint);
-document.write(messageMul);
-document.write(breakPoint);
-document.write(messageDiv);
 
 
 
