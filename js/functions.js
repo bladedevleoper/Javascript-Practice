@@ -51,3 +51,7 @@ function add(a, b){
 // it is similar to a var_dump() in php, it is used to check what is happening in the application.
 console.log( add(string1, string2) );
 //console.log( add(120, 310) );
+
+
+
+
