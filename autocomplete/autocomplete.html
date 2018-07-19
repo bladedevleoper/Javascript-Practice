@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/autocomplete.css" />
+    <script src="js/autocomplete.js"></script>
+</head>
+<body>
+    <!--Make sure the form has the autocomplete function switched off:-->
+<form autocomplete="on" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="myCountry" placeholder="Email">
+    </div>
+    <input type="submit">
+  </form>
+</body>
+<script>
+autocomplete(document.getElementById("myInput"), countries);
+</script>
+</html>
