@@ -29,3 +29,7 @@ var randomNumber = Math.floor(Math.random() * (convertString - convertString2 + 
 document.write('Your number is ' + randomNumber + ' which is between 1 and ' + convertString );
 
 
+
+
+
+
